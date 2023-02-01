@@ -8,7 +8,7 @@ canvas.title("Music Player")
 canvas.geometry("600x800")
 canvas.config(bg="black")
 
-rootpath = r"C:\Users\abahor\OneDrive\Desktop\simple calculator\music"
+rootpath = os.getcwd() + '\\music'
 pattern = '*.mp3'
 mixer.init()
 
